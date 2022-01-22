@@ -6,6 +6,8 @@ Suddenly, SSL support requires rustls which doesn't compile on gnu toolchain.
 REQUIRED
 rustup default stable-x86_64-pc-windows-msvc 
 
+/static/ folder should exist (at server executable working directory)
+
 NOTE
 Not all URI will be available from browser because browser doesn't encode URI path.
 
