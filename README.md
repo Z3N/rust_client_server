@@ -1,4 +1,4 @@
-Simple http server and  http(s) client
+Simple http server and  http(s) client without any security attempt.
 
 Server will get image location via http parameters and return URI for resized image.
 
