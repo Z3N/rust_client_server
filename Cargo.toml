@@ -1,0 +1,19 @@
+[package]
+name = "simple_client_server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[[bin]]
+name = "client"
+
+[dependencies]
+actix-web = "3.3.3"
+actix-files = "0.5.0"
+awc = {version="2.0.3",features=["rustls"]}
+serde = "1.0.134"
+env_logger = "0.9.0"
+image = "0.23.14"
+urlencoding = "2.1.0"
+structopt = "0.3.26"
+
